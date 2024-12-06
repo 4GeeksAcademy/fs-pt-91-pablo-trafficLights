@@ -10,3 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traffic-top {
+    width: 10px;
+    height: 100px;
+}
+
+.light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#purple.selected {
+    box-shadow: 0px 0px 20px 10px purple;
+}
+
+#red.selected {
+    box-shadow: 0px 0px 90px 10px rgb(220,53,69);
+}
+
+#yellow.selected {
+    box-shadow: 0px 0px 90px 10px rgb(255,193,7);
+}
+
+#green.selected {
+    box-shadow: 0px 0px 20px 10px rgb(25,135,84);
+}
